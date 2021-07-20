@@ -1,0 +1,231 @@
+@media screen and (min-width:300px) and (max-width:450px) {
+  .container{
+    width:100%;
+  }
+
+  label {
+  width: 95%;
+  
+}
+
+  input {
+  width: 95%;
+}
+.booklist__display {
+  width: 95%;
+  font-size: 1.4rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:451px) and (max-width:570px) {
+  .container{
+    width:90%;
+  }
+  .booklist__container{
+    width:90%;
+    margin: auto;
+  }
+
+  label {
+  width: 90%;
+  
+}
+
+  input {
+  width: 90%;
+}
+.booklist__display {
+  width: 90%;
+}
+.booklist__table{
+  width:90%;
+  margin: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:571px) and (max-width:768px) {
+  .container{
+    width:90%;
+  }
+  .booklist__container{
+    width:70%;
+    margin: auto;
+  }
+
+  label {
+  width: 90%;
+  
+}
+
+  input {
+  width: 90%;
+}
+.booklist__display {
+  width: 70%;
+}
+.booklist__table{
+  width:90%;
+  margin: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:769px) and (max-width:992px) {
+  .container{
+    width:90%;
+  }
+  .booklist__container{
+    width:60%;
+    margin: auto;
+  }
+
+  label {
+  width: 90%;
+  
+}
+
+  input {
+  width: 90%;
+}
+.booklist__display {
+  width: 60%;
+}
+.booklist__table{
+  width:90%;
+  margin: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+  .container{
+    width:90%;
+  }
+  .booklist__container{
+    width:50%;
+    margin: auto;
+  }
+
+  label {
+  width: 90%;
+  
+}
+
+  input {
+  width: 90%;
+}
+.booklist__display {
+  width: 50%;
+}
+.booklist__table{
+  width:90%;
+  margin: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1201px) and (max-width:1400px) {
+  .container{
+    width:90%;
+  }
+  .booklist__container{
+    width:40%;
+    margin: auto;
+  }
+
+  label {
+  width: 90%;
+  
+}
+
+  input {
+  width: 90%;
+}
+.booklist__display {
+  width: 40%;
+}
+.booklist__table{
+  width:90%;
+  margin: auto;
+}
+}

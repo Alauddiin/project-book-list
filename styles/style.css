@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 500;
+  line-height: 1.7;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 80%;
+  background: linear-gradient(120deg, #0695b9, #9c0b3b, #3507b6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding: 2rem 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 1.6rem;
+  width: 40%;
+  text-align: left;
+  margin: auto;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+input {
+  width: 40%;
+  border: none;
+  padding: .8rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+input[type="submit"] {
+  margin-top: 1.5rem;
+  cursor: pointer;
+  background: rgba(240, 14, 248, 0.9);
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.booklist__container {
+  text-align: center;
+}
+
+.booklist__display {
+  width: 40%;
+  margin: auto;
+  font-size: 1.6rem;
+  padding: 4rem 0;
+}
+
+.booklist__table {
+  text-align: center;
+  width: 100%;
+}
+
+.booklist__table .booklsit__table-heading {
+  border: 2px solid #fff;
+  color: black;
+  background: #23fa1b;
+}
+
+.booklist__table .booklist__table-body {
+  background: #fff;
+  color: black;
+}
+
+.booklist__table:nth-child(odd) {
+  background: #ddc0c0;
+}
+
+.delete {
+  color: #9c0b3b;
+}
+/*# sourceMappingURL=style.css.map */

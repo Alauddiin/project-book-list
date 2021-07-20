@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    box-sizing: border-box;
+    font-weight: 500;
+    line-height: 1.7;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+$color-bg-primary:rgb(6, 149, 185);
+$color-bg-secondary:rgb(240, 14, 248);
+$color-bg-terrytory:rgb(156, 11, 59);
+$color-bg-tertiary:rgb(53, 7, 182);
+$color-bg-light:rgb(221, 192, 192);
+$color-bg-dark:rgb(160, 140, 140);
+$color-bg-white:#fff;
+$color-bg-green:rgb(35, 250, 27);
+
+$color-text-white:#fff;
+$color-text-light:rgba(134, 130, 130, 0.979);
+$color-text-dark:rgb(0, 0, 0);
+$color-text-terrytory:rgb(156, 11, 59);
+
+
+@mixin heading-common{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 2rem 2rem;
+    color:$color-text-white;
+    text-align: center;
+
+}
+
+@mixin input{
+    width:40%;
+    border:none;
+    padding: .8rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+@mixin label{
+    display: block;
+    font-size: 1.6rem;
+    width:40%;
+    text-align: left;
+    margin: auto;
+    color:$color-text-white;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.container{
+
+    width:80%;
+    background: linear-gradient(120deg,
+    $color-bg-primary,
+    $color-bg-terrytory,
+    $color-bg-tertiary
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+    
+}
+
+h2{
+    @include heading-common;
+}
+label{
+    @include label;
+}
+input{
+    @include input;
+}
+input[type="submit"]{
+    margin-top: 1.5rem;
+    cursor: pointer;
+    background: rgba($color-bg-secondary,.9);
+    color:$color-text-white;
+    font-size: 1.8rem;
+}
+.booklist__container{
+    text-align: center;
+}
+
+.booklist__display{
+    width:40%;
+    margin: auto;
+    font-size: 1.6rem;
+    padding: 4rem 0;
+}
+.booklist__table{
+    text-align: center;
+    width:100%;
+    .booklsit__table-heading{
+        border:2px solid $color-bg-white;
+        color:$color-text-dark;
+        background: $color-bg-green;
+    }
+    .booklist__table-body{
+        background: $color-bg-white;
+        color:$color-text-dark;
+        
+    }
+    
+    
+    &:nth-child(odd){
+        background:$color-bg-light ;
+    }
+}
+
+
+.delete{
+    color:$color-text-terrytory;
+}
